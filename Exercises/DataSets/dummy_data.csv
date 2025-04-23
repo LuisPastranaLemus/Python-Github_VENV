@@ -22,7 +22,7 @@ East;Headphones;4510,23;1728,94;USD;Elizabeth;INV9850;Item 7560 - production;202
 North;Monitor;2584,9;649,35;MXN;Sharon;INV5106;Item 9584 - religious;2024-07-22;
 South;Headphones;3367,78;-117,52;MXN;Matthew;INV3858;Item 2288 - game;2024-10-05;
 West;Smartphone;1698,3;-59,66;MXN;Regina;INV2801;Item 7484 - physical;2024-08-08;
-East;Smartphone;3516,32;804,37;USD;Kevin;INV1422;Item 6083 - guess;2024-05-20;Not empty
+East;Missing;3516,32;804,37;USD;Kevin;INV1422;Item 6083 - guess;2024-05-20;Not empty
 East;Tablet;2816,62;1126,14;Unknown;Cristian;INV3159;Item 6562 - say;2025-01-19;
 South;Smartphone;1040,02;1039,78;-;Christopher;INV1243;Item 4630 - example;2025-02-16;
 South;Laptop;3358,15;1799,04;USD;Stephanie;INV6869;Item 6456 - agree;2024-11-07;
@@ -47,7 +47,7 @@ North;Laptop;4803,18;;MXN;Amanda;INV9254;Item 2234 - forward;2024-12-19;
 South;Smartphone;3706,21;387,06;Unknown;Brian;INV4629;Item 3902 - arrive;2025-02-08;
 East;Headphones;3328,37;145,88;;Ronald;INV1710;Item 9095 - need;2024-12-09;
 North;Laptop;1490,55;199,15;Unknown;Travis;INV9543;Item 8601 - address;2024-11-18;
-South;Monitor;3352,88;990,39;USD;Barbara;INV5941;Item 8354 - meet;2024-07-23;Not empty
+South;Missing;3352,88;990,39;USD;Barbara;INV5941;Item 8354 - meet;2024-07-23;Not empty
 North;Smartphone;3134,38;1700,27;USD;Christine;INV8504;Item 6295 - goal;2024-12-21;
 West;Monitor;557,6;889,48;;Jennifer;INV1510;Item 6179 - sure;2024-08-29;
 East;Monitor;4764,8;791,57;-;Jessica;INV1996;Item 3473 - home;2024-11-04;
@@ -72,7 +72,7 @@ South;Tablet;4474,03;875,97;MXN;Candice;INV5831;Item 2257 - begin;2024-12-06;
 North;Laptop;4316,16;379,53;-;Jessica;INV8433;Item 2479 - executive;2024-08-18;
 East;Laptop;4438,78;634,36;;Brian;INV9282;Item 9307 - always;2024-06-12;
 West;Headphones;;266,56;MXN;Jennifer;INV8048;Item 7299 - not;2024-07-20;
-East;Monitor;3914,26;76,35;Unknown;Lisa;INV2624;Item 8581 - others;2024-06-17;Not empty
+East;Missing;3914,26;76,35;Unknown;Lisa;INV2624;Item 8581 - others;2024-06-17;Not empty
 North;Monitor;1172,32;1303,21;Unknown;Stephanie;INV2874;Item 1672 - prove;2024-11-16;
 South;Laptop;4040,14;288,87;Unknown;John;INV4522;Item 8368 - add;2025-02-13;
 East;Laptop;3509,97;1357,2;EUR;Stephanie;INV8046;Item 4084 - far;2024-11-04;
@@ -97,7 +97,7 @@ North;Monitor;4321,33;-183,54;;Elizabeth;INV2398;Item 3600 - so;2025-03-20;
 South;Tablet;2305,34;-386,21;MXN;Daniel;INV2527;Item 6962 - drive;2024-05-10;
 South;Laptop;3783,71;-363,68;-;Jacob;INV8075;Item 7108 - security;2025-02-01;
 West;Smartphone;4215,33;230,34;-;Julie;INV2582;Item 5634 - whatever;2025-01-01;
-North;Tablet;;1860,22;;Travis;INV7105;Item 7347 - exist;2025-01-06;Not empty
+North;Missing;;1860,22;;Travis;INV7105;Item 7347 - exist;2025-01-06;Not empty
 West;Laptop;1458,83;1094,67;Unknown;Sharon;INV3131;Item 7697 - bill;2025-04-01;
 West;Laptop;;1381,98;EUR;Anthony;INV1982;Item 6543 - piece;2024-11-02;
 West;Monitor;3910,61;-243,53;Unknown;Nancy;INV6400;Item 1857 - seven;2024-05-05;
@@ -122,7 +122,7 @@ East;Tablet;2008,44;120,48;MXN;Barbara;INV2882;Item 7171 - win;2024-05-27;
 South;Smartphone;3872,0;895,18;;Anthony;INV5564;Item 6381 - kid;2025-04-21;
 North;Tablet;4735,7;540,44;Unknown;Elizabeth;INV4705;Item 3093 - speak;2025-03-11;
 East;Smartphone;195,71;990,32;;Savannah;INV8030;Item 9624 - despite;2024-05-18;
-West;Headphones;4415,22;1046,05;Unknown;Michael;INV1430;Item 2531 - wife;2024-05-04;Not empty
+West;Missing;4415,22;1046,05;Unknown;Michael;INV1430;Item 2531 - wife;2024-05-04;Not empty
 North;Monitor;2920,88;1439,23;Unknown;Daniel;INV5381;Item 7937 - those;2025-03-30;
 North;Headphones;2437,2;450,95;;Jennifer;INV1474;Item 9331 - win;2024-06-27;
 East;Monitor;4719,43;1771,26;;Dalton;INV3955;Item 6928 - wrong;2024-06-23;
@@ -147,7 +147,7 @@ West;Smartphone;4605,75;521,29;EUR;Matthew;INV6585;Item 1618 - morning;2024-09-1
 East;Smartphone;;1223,43;USD;Stephanie;INV3578;Item 6517 - rule;2025-04-11;
 West;Laptop;4905,54;674,78;Unknown;Michael;INV7062;Item 3147 - both;2025-01-23;
 West;Tablet;2717,21;;MXN;Austin;INV6105;Item 7172 - rate;2024-12-15;
-North;Monitor;4543,95;-418,4;MXN;Christopher;INV6314;Item 3527 - how;2024-04-27;Not empty
+North;Missing;4543,95;-418,4;MXN;Christopher;INV6314;Item 3527 - how;2024-04-27;Not empty
 South;Headphones;3000,27;220,26;-;Rachel;INV2391;Item 3658 - should;2025-02-05;
 South;Monitor;3348,7;206,8;;Brenda;INV1861;Item 3962 - into;2024-05-24;
 North;Smartphone;511,34;1649,02;Unknown;Savannah;INV3549;Item 3712 - region;2025-01-13;
@@ -172,7 +172,7 @@ West;Headphones;1198,69;1802,98;MXN;Brenda;INV8972;Item 5616 - whom;2024-06-04;
 South;Tablet;436,23;597,88;EUR;Cristian;INV9633;Item 7256 - easy;2024-09-16;
 West;Tablet;;;;Dalton;INV6053;Item 9239 - tough;2024-11-22;
 West;Smartphone;4790,7;671,74;USD;Candice;INV1744;Item 9641 - great;2024-06-12;
-South;Smartphone;297,26;260,23;Unknown;Rebecca;INV4612;Item 7859 - trade;2024-10-14;Not empty
+South;Missing;297,26;260,23;Unknown;Rebecca;INV4612;Item 7859 - trade;2024-10-14;Not empty
 North;Laptop;252,05;506,27;USD;Brenda;INV7475;Item 3655 - term;2024-12-12;
 North;Smartphone;1311,69;180,62;;Rachel;INV1897;Item 4271 - speak;2024-09-19;
 West;Headphones;4212,22;849,95;;John;INV1125;Item 3267 - career;2024-10-26;
@@ -197,7 +197,7 @@ East;Monitor;4549,33;797,41;-;Kevin;INV6802;Item 8391 - perhaps;2025-03-21;
 West;Headphones;1939,0;605,57;;Jamie;INV2180;Item 6727 - word;2024-05-12;
 South;Tablet;4713,21;195,39;EUR;Ronald;INV7505;Item 1436 - civil;2024-10-03;
 North;Tablet;1071,82;1992,36;EUR;Travis;INV1693;Item 7797 - general;2024-06-04;
-West;Headphones;3001,28;589,71;EUR;Raymond;INV8147;Item 1872 - again;2024-09-04;Not empty
+West;Missing;3001,28;589,71;EUR;Raymond;INV8147;Item 1872 - again;2024-09-04;Not empty
 North;Monitor;4169,8;1535,61;USD;Savannah;INV1307;Item 7495 - sound;2024-05-17;
 West;Tablet;;405.47;Unknown;Briana;INV4362;Item 7347 - exist;2025-04-16 00:00:00;	
 North;Headphones;3001.28;589.71;EUR;Jennifer;INV3129;Item 1872 - again;2024-12-08 00:00:00;	
