@@ -1,3 +1,6 @@
+to make modifications in the current venv, first activate it with 
+source venv/bin/activate
+
 luisp@ALIENWARE-15-R4 MINGW64 ~/OneDrive/Documentos/GitHub/Win11_Python-PipVenv-Github (main)
 $ which python
 /c/Users/luisp/AppData/Local/Programs/Python/Python313/python
