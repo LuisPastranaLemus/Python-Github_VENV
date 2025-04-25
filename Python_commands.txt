@@ -260,3 +260,8 @@ wcwidth==0.2.13
 webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
+
+luisp@ALIENWARE-15-R4 MINGW64 ~/OneDrive/Documentos/GitHub/Win11_Python-PipVenv-Github (main)
+$ ls ~/.virtualenvs
+Python-Github_VENV-XjlEX2HA/  Win11_Python-PipVenv-Github-Hmb7GD39/
+
