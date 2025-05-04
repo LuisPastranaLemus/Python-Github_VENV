@@ -24,6 +24,17 @@ def missing_values(df, exclude=None):
                 
     return df
 
+def normalize_columns_header(df):
+    
+    df.columns = df.columns.str.replace('/', '_')
+    df.columns = df.columns.str.replace('-', '_')
+    df.columns = df.columns.str.replace(r'__+', '_', regex=True)
+    df.columns = df.columns.str.replace(' ', '_')
+    df.columns = df.columns.str.lower()
+    df.columns = df.columns.str.strip()
+    
+    return df
+    
 # Function to standardize string values format(snake_case, lower, strip, removal of hyphens)
 def normalize_string(df, exclude=None):
     
@@ -41,8 +52,12 @@ def normalize_string(df, exclude=None):
         if df[column].dtype == 'object':
             
             df[column] = df[column].astype(str).apply(normalize_str)
-            df[column] = df[column].str.replace('-', '_').str.replace(' ', '_').str.lower().str.strip()
+            df[column] = df[column].str.replace('/', '_')
+            df[column] = df[column].str.replace('-', '_')
             df[column] = df[column].str.replace(r'__+', '_', regex=True)
+            df[column] = df[column].str.replace(' ', '_')
+            df[column] = df[column].str.lower()
+            df[column] = df[column].str.strip()
                 
     return df
 
@@ -74,7 +89,7 @@ def replace_string_numeric_values_numeric(df, include=None,exclude=None):
         if df[column].str.isdigit().all():
                 
             if np.array_equal(df[column], df[column].astype('int')):
-                df[column] = pd.to_numeric(df[column], errors='coerce').astype('Int64'))
+                df[column] = pd.to_numeric(df[column], errors='coerce').astype('Int64')
                 
         elif df[column].apply(lambda x: x.replace('.', '', 1).isdigit() if isinstance(x, str) else False).all():
                 
@@ -200,7 +215,26 @@ def replace_string_datetime_values_datetime(df, include=None, exclude=None, frmt
             df[column] = df[column].dt.tz_convert(time_zone)
     
     return df
+ 
+ # Function for unique values
+def detect_unique_values(df, include=None, exclude=None):
+     
+    unique_dictionary = {}
+     
+    if exclude is None:
+        exclude = []
+        
+    if include is None:
+        available_columns = [col for col in df.columns if col not in exclude]
+    else:
+        available_columns = [col for col in include if col not in exclude]
+     
+    for column in available_columns:
+        
+        unique_dictionary[column] = df[column].unique()
     
+    return unique_dictionary
+        
         
 # Function for implicit duplicates
 def detect_implicit_duplicates(df, include=None, exclude=None):

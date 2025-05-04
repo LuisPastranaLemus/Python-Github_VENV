@@ -3,7 +3,7 @@
 import pandas as pd
 import os
 
-def load_csv(path, sep=",", encoding="utf-8", header='infer', keep_default_na=False):
+def load_csv(path, sep=',', encoding='utf-8', header='infer', keep_default_na=False):
     
     if not os.path.exists(path):
         raise FileNotFoundError(f"*** Error *** \nFile not found: {path}.")
