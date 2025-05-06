@@ -46,6 +46,7 @@ Acción	Cómo te ayuda	Ejemplo
 2. Cada vez que leas una pregunta, pártela en mini-acciones.	Entrenas a tu cerebro a traducir preguntas a acciones técnicas.	Filtrar, agrupar, contar, graficar.
 3. Hacer mínimo un gráfico diario. (aunque sea mini.)	Ganas confianza brutalmente rápido.	Hoy hago uno de barras, mañana uno de histograma.
 4. Después de hacer una gráfica, siempre pregúntate: "¿Qué historia cuenta esto?"	Te entrena para no hacer gráficas por hacer, sino por entender.	"Veo que los pedidos bajan en la tarde".
+
 🧠 Te comparto algo personal y profesional:
 Los mejores analistas no son los que más rápido codifican.
 
@@ -124,6 +125,7 @@ Comparación de categorías (nombres, días, productos)	Barra (bar)
 Evolución en el tiempo (por días, horas)	Línea (line)
 Composición de un total (porcentaje)	Pastel (pie)
 Relación entre dos variables	Dispersión (scatter)
+
 5. 🧠 ¿Cómo interpretaré el resultado?
 (Hazte una de estas preguntas)
 
